@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+background-image: url(../images/4924fde71348a791a30d322e7b5567ea.jpeg);
+background-size: 100% 100%;
+background-position: center;
+height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+header a{
+  font-size: 20px;
+  font-weight: 500;
+  color:#000000;
+}
+.container{
+  padding: 20px;
+  display: flex;
+align-items: flex-start;
+justify-content:space-between;
+}
+.login{
+  width:539px;
+height:600px;
+border-radius: 50px;
+background-color:#FFFFFFBF ;
+margin-top: 10px;
+margin-right: 120px;
+padding: 30px;
+}
+.info p{
+font-weight:400;
+font-size:21px; 
+}
+.info span{
+  color: #779341;
+  font-weight:600;
+}
+span{
+  color: #779341;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content a{
+  font-weight: 400;
+  font-size: 13px;
+  color:#8D8D8D;
+}
+.login h1{
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.sign{
+  background-color:#E9F1FF;
+padding:10px;
+border-radius: 10px;
+width: 298px;
+height: 55px;
+margin-top: 30px;
+}
+.sign a{
+  color:#4285F4 ;
+  font-weight: 400;
+font-size: 16px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.icon{
+  background-color:#FFFFFF;
+  width: 60px;
+  height: 55px;
+text-align: center;
+margin-top: 25px;
+}
+.icon img{
+  margin-top: 15px;
+}
+form label{
+  font-weight: 400;
+  font-size: 16px;
+padding: 10px;
+position: relative;
+top: 20px;
+}
+form input{
+  color:#808080;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #FFf;
+  width: 451px;
+height: 57px;
+border-radius: 9px;
+border: 1px solid #4285F4;
+padding: 10px;
+margin-top: 30px;
+}
+form a{
+  color: #4285F4;
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 20px;
+}
+button{
+  background-color:#779341;
+  color:#FFFFFF;
+  width: 236px;
+height: 54px;
+border-radius: 10px;
+border: 1px solid #779341;
+font-size: 16px;
+font-weight: 500;
+position: relative;
+left:230px;
+}
+.all{
+  display: flex;
+  align-items: center;
+}
+.all input{
+  width: fit-content;
+}
